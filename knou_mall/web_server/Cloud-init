@@ -10,10 +10,10 @@ write_files:
   - path: "/opt/shop2.yml"
     append: true
     content: |
-      DB_HOST: <db_host>
-      DB_USER: <db_user>
-      DB_PASSWD: <db_user_password>
-      DB_NAME: <db_name>
+      DB_HOST: knou-mall-db3498-2.postgres.database.azure.com
+      DB_USER: fteapot2
+      DB_PASSWD: gv64908854S#
+      DB_NAME: knou-mall-db3498-2
 runcmd:
   - python3 -m pip install https://github.com/jaehwachung/cloud_computing/releases/download/latest/knou_cloud_computing_shop2-latest-py3-none-any.whl
   - create-db
